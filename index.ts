@@ -50,7 +50,7 @@ deposit(amount: number): void {
 }
 
 
-// chwck balance
+// check balance
 checkBalance(): void {
     console.log(`Current balance: Rs: ${this.balance}`);
     
@@ -95,7 +95,7 @@ const accounts: BankAccount[] = [
 const customers: Customer[] = [
     new Customer ("Shezan", "Usman", "Male", 20, 11111111111, accounts[0]),
     new Customer ("new", "member1", "Male", 20, 2222222222, accounts[1]), 
-    new Customer ("new", "member2", "Male", 20, 33333333333, accounts[2])     // can add more and more customers
+    new Customer ("new", "member2", "Male", 20, 33333333333, accounts[2]) 
 ];
 
 // step4: fuction to interact with bank accounts

@@ -28,7 +28,7 @@ class BankAccount {
         console.log(`Rs: ${amount} Deposited.`);
         console.log(`New Balance is Rs :${this.balance}`);
     }
-    // chwck balance
+    // check balance
     checkBalance() {
         console.log(`Current balance: Rs: ${this.balance}`);
     }
@@ -60,8 +60,8 @@ const accounts = [
 // Create customers
 const customers = [
     new Customer("Shezan", "Usman", "Male", 20, 11111111111, accounts[0]),
-    new Customer("Bashar", "Shafiq", "Male", 20, 2222222222, accounts[1]),
-    new Customer("Hameed", "Khatri", "Male", 20, 33333333333, accounts[2])
+    new Customer("new", "member1", "Male", 20, 2222222222, accounts[1]),
+    new Customer("new", "member2", "Male", 20, 33333333333, accounts[2])
 ];
 // step4: fuction to interact with bank accounts
 async function services() {
